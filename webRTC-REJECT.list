@@ -1,0 +1,10 @@
+# WebRTC 泄漏列表
+DOMAIN-SUFFIX,stun.l.google.com
+DOMAIN-SUFFIX,stun.services.mozilla.com
+DOMAIN-SUFFIX,stun1.l.google.com
+DOMAIN-SUFFIX,stun2.l.google.com
+DOMAIN-SUFFIX,stun3.l.google.com
+DOMAIN-SUFFIX,stun4.l.google.com
+DOMAIN-KEYWORD,stun
+DOMAIN-KEYWORD,turn
+DOMAIN-KEYWORD,rtc
