@@ -1,10 +1,9 @@
-# 1. IP 查询规则（放前面）
-
-DOMAIN-SUFFIX,ipinfo.io,🚀 节点选择
-DOMAIN-SUFFIX,ip-api.com,🚀 节点选择
-DOMAIN-SUFFIX,ip.sb,🚀 节点选择
-DOMAIN-SUFFIX,ifconfig.me,🚀 节点选择
-DOMAIN-SUFFIX,whatismyipaddress.com,🚀 节点选择
-DOMAIN-SUFFIX,geojs.io,🚀 节点选择
-DOMAIN-SUFFIX,ipgeolocation.io,🚀 节点选择
-DOMAIN-SUFFIX,ipwho.is,🚀 节点选择
+# 1. IP 查询规则
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,whatismyipaddress.com
+DOMAIN-SUFFIX,geojs.io
+DOMAIN-SUFFIX,ipgeolocation.io
+DOMAIN-SUFFIX,ipwho.is
