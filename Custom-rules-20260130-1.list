@@ -1,0 +1,83 @@
+# 1.IP查询规则
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,whatismyipaddress.com
+DOMAIN-SUFFIX,geojs.io
+DOMAIN-SUFFIX,ipgeolocation.io
+DOMAIN-SUFFIX,ipwho.is
+
+# 2. Bybit Exchange
+# ============================
+# Bybit 精细化 UDP 代理规则（方案 C）
+# 只代理 Bybit App 的 UDP，不影响微信
+# Author: William 专用
+# ============================
+
+# ----------------------------
+# Bybit 主域名
+# ----------------------------
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybdc6.com
+
+# ----------------------------
+# Bybit App 使用的 SDK（必须代理）
+# ----------------------------
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,google.com
+
+# ----------------------------
+# Bybit 使用的腾讯推送 TPNS（UDP 51051 / 51052）
+# 精准匹配，不影响微信
+# ----------------------------
+DOMAIN-SUFFIX,tpns.tencent.com
+DOMAIN-SUFFIX,igetcool.com
+DOMAIN-SUFFIX,cloud.tencent.com
+
+# ----------------------------
+# Bybit App 的腾讯云 IP（精准段）
+# 不影响微信
+# ----------------------------
+IP-CIDR,43.135.0.0/16
+IP-CIDR,43.154.0.0/16
+IP-CIDR,43.160.0.0/16
+
+# ----------------------------
+# Bybit App 的 CloudFront / AWS
+# ----------------------------
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,amazon.com
+
+# ----------------------------
+# 其他 Bybit 相关域名（来自你原本的规则）
+# ----------------------------
+DOMAIN,bybit-exchange.github.io
+DOMAIN,app-measurement.com
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+
+# ----------------------------
+# 你原本的 Bybit 精准 IP（全部保留）
+# ----------------------------
+IP-CIDR,13.32.121.6/32,no-resolve
+IP-CIDR,43.133.238.145/32,no-resolve
+IP-CIDR,13.33.187.108/32,no-resolve
+IP-CIDR,150.109.230.182/32,no-resolve
+IP-CIDR,142.251.215.234/32,no-resolve
+IP-CIDR,43.133.241.84/32,no-resolve
+IP-CIDR,3.160.150.37/32,no-resolve
+
