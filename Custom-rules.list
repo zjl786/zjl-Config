@@ -1,4 +1,4 @@
-# 1. IP 查询规则
+#IP查询规则
 DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ip.sb
@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,geojs.io
 DOMAIN-SUFFIX,ipgeolocation.io
 DOMAIN-SUFFIX,ipwho.is
 
-# 2. Bybit Exchange
+#BybitExchange
 DOMAIN,bybit-exchange.github.io
 DOMAIN,app-measurement.com
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
