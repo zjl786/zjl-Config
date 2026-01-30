@@ -1,9 +1,0 @@
-#IP查询规则
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,ip.sb
-DOMAIN-SUFFIX,ifconfig.me
-DOMAIN-SUFFIX,whatismyipaddress.com
-DOMAIN-SUFFIX,geojs.io
-DOMAIN-SUFFIX,ipgeolocation.io
-DOMAIN-SUFFIX,ipwho.is
