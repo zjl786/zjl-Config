@@ -51,9 +51,9 @@ DOMAIN-SUFFIX,cloud.tencent.com
 # Bybit App 的腾讯云 IP（精准段）
 # 不影响微信
 # ----------------------------
-IP-CIDR,43.135.0.0/16
-IP-CIDR,43.154.0.0/16
-IP-CIDR,43.160.0.0/16
+IP-CIDR,43.135.0.0/16,no-resolve
+IP-CIDR,43.154.0.0/16,no-resolve
+IP-CIDR,43.160.0.0/16,no-resolve
 
 # ----------------------------
 # Bybit App 的 CloudFront / AWS
