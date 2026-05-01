@@ -80,33 +80,3 @@ IP-CIDR,150.109.230.182/32,no-resolve
 IP-CIDR,142.251.215.234/32,no-resolve
 IP-CIDR,43.133.241.84/32,no-resolve
 IP-CIDR,3.160.150.37/32,no-resolve
-
-# ============================
-# Google Play 下载修复
-# 覆盖 GoogleCN.list 直连冲突项
-# ============================
-
-# --- Play Store 核心下载域名 ---
-DOMAIN-SUFFIX,dl.google.com
-DOMAIN-SUFFIX,dl.l.google.com
-DOMAIN-SUFFIX,services.googleapis.cn
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-
-# --- FCM 推送 / Play 连接保持（覆盖 GoogleCN.list 直连）---
-DOMAIN-SUFFIX,mtalk.google.com
-DOMAIN-SUFFIX,alt1-mtalk.google.com
-DOMAIN-SUFFIX,alt2-mtalk.google.com
-DOMAIN-SUFFIX,alt3-mtalk.google.com
-DOMAIN-SUFFIX,alt4-mtalk.google.com
-DOMAIN-SUFFIX,alt5-mtalk.google.com
-DOMAIN-SUFFIX,alt6-mtalk.google.com
-DOMAIN-SUFFIX,alt7-mtalk.google.com
-DOMAIN-SUFFIX,alt8-mtalk.google.com
-
-# --- Play CDN 下载节点 ---
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,android.clients.google.com
